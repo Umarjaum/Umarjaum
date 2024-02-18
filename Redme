@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umarjaum - Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: richblack; /* Changed text color to rich black */
+        }
+
+        /* Header styles */
+        header {
+            background-color: persianindigo;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Section styles */
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: persianindigo;
+        }
+
+        h3 {
+            color: persianindigo;
+            border-bottom: 1px solid #ccc; /* Added border bottom for separation */
+            padding-bottom: 10px; /* Added padding for space */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: persianindigo;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Banner styles */
+        .banner {
+            background-color: persianindigo;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Sign up/sign in/comment/subscribe/follow styles */
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: persianindigo;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Umarjaum's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="discography.html">Discography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2>Welcome to Umarjaum's Portfolio Website</h2>
+        <p>Explore my music journey, connect with me, and stay updated!</p>
+    </div>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to my portfolio website! Here you can learn more about me, explore my discography, and get in touch. Enjoy your visit!</p>
+        <p>Connect with me:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/umarjaum" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/umarjaum" target="_blank">Twitter</a></li>
+            <li><a href="https://www.youtube.com/umarjaum" target="_blank">YouTube</a></li>
+            <li><a href="https://open.spotify.com/artist/umarjaum" target="_blank">Spotify</a></li>
+            <li><a href="https://www.instagram.com/umarjaum" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@umarjaum" target="_blank">TikTok</a></li>
+            <li><a href="https://www.snackvideo.com/@umarjaum" target="_blank">SnackVideo</a></li>
+            <li><a href="mailto:umarjaum@gmail.com">Email</a></li>
+            <!-- Add more social media links as needed -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Umarjaum</h2>
+        <p>Umarjaum (born 01 February 2008) is a Pakistani singer, songwriter, and music composer associated with Punjabi, Bhangra, Indi-pop, and Bollywood music.</p>
+        <p>Umar Jaum, a young and promising singer, music artist, and songwriter, hails from the vibrant city of Khanewal. Born on 01/02/2008, this talented artist is making waves in the music scene, captivating audiences with his soulful voice and captivating lyrics.</p>
+        <h3>Background and Early Life</h3>
+        <p>Umar Jaum's musical journey is deeply rooted in his family. His father, Abdul Jabbar, has been a source of inspiration and support. Growing up in a household filled with the love of music, Umar developed a passion for singing at an early age.</p>
+        <h3>Educational Pursuits</h3>
+        <p>Despite his rising success in the music industry, Umar Jaum is committed to his education. Balancing the demands of his studies with his musical endeavors, he exemplifies dedication and discipline.</p>
+        <h3>Musical Artistry</h3>
+        <p>Umar Jaum's recent release, "Yaaria," showcases his artistic prowess. The song not only highlights his melodious voice but also reflects his skills as a songwriter. The meaningful lyrics resonate with listeners, adding depth to his musical creations.</p>
+        <h3>Influence and Style</h3>
+        <p>Umar Jaum draws inspiration from a diverse range of musical influences, contributing to a unique and dynamic style. His ability to infuse various genres into his work sets him apart, promising an exciting and evolving musical journey.</p>
+<h3>Local Pride - Khanewal</h3>
+<p>Proud of his roots, Umar Jaum often incorporates elements of his cultural heritage into his music. Khanewal's influence is evident in the authenticity and richness of his compositions, creating a connection with local audiences.</p>
+<section id="discography">
+    <h2>Discography</h2>
+    <h3>Singles</h3>
+    <ul>
+        <li><strong>"Yaaria"</strong>
+            <ul>
+                <li><strong>Release Date:</strong> December 08, 2023</li>
+                <li><strong>Label:</strong> T-Series</li>
+                <li><strong>Available on:</strong> Major online music stores</li>
+            </ul>
+        </li>
+        <li><strong>"Vaadey Bewafa Nikle"</strong>
+            <ul>
+                <li><strong>Release Date:</strong> December 08, 2023</li>
+                <li><strong>Label:</strong> T-Series</li>
+                <li><strong>Available on:</strong> Major online music stores</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="form-container">
+        <form id="commentForm" action="submit_comment.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Umarjaum. All rights reserved.</p>
+</footer>
+</section>
